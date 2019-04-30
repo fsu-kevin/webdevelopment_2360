@@ -1,0 +1,98 @@
+/*navigation bar*/
+#navbar{
+	position: fixed; /* navbar should always be shown even when page is scrolled */
+	top: 0;
+	width: 100%;
+	height: 47px;
+	background-color: rgba(255, 255, 255, 0.8); 
+}	
+/* horizontal menu bars are typically created using a styled unordered list. Here's how! */
+ul#menu {
+    list-style-position: center;
+	list-style-type: none; /* eliminates bullets */
+	/* adjust padding top to adjust nav bar vertical position */
+	padding-top: 0px;
+} 
+ul#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	padding-bottom: 20px;
+} 
+ul#menu li a.button {
+    list-style-position: center;
+	font-size: 16px;
+	text-decoration: none;
+	/* this padding defines the size of the buttons */
+	padding: 20px 40px;
+	text-align: center;
+}
+/* change button color when mouse hovers over */
+ul#menu li a.button:hover {
+	background-color: rgba(42, 188, 238, 0.1);
+}  
+/*end of navbar styles*/
+body{
+    margin:0;
+    padding:0;
+}
+#titlepage{
+    width: 100%;
+  padding-top: 200px; 
+  color: #fff;
+  text-align: center;
+}
+#titlepage h1 {
+  font-family: 'Times', sans-serif;
+  font-size: 60px; 	
+  text-shadow: 1px 4px #000;
+}
+#splash{
+    background:url(images/sunset.png) no-repeat center top fixed;
+    background-size:cover;
+    height:1000px;
+}
+#overview{
+    background-color: #D1D539;
+    height:100%;
+    padding:5px 10px;
+}
+#media{
+    background-color: #5B5D60;
+    height:100%;
+    padding:5px 10px;
+}
+#footer{
+    background-color: #fff;
+    height:100%;
+    padding:5px 10px;
+    text-align: center;
+    list-style-type: none;
+}
+.container {
+  width: 100%; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+}
+a:link {
+	word-spacing: 0.3em;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #9B9744;
+	text-decoration: italic;
+}
+a:visited {
+	font-weight: bold;
+	color: #D1D539;
+	text-decoration: none;
+}
+a:hover {
+	color: rgba(178, 247, 255, 0.9);
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}

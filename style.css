@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/*page layout divs*/
+ #container{
+	width:80%;
+	margin: 0 auto;
+	border: 2px solid #fff;
+	background-color:#fff;
+	overflow:hidden;
+}
+#header{
+width:100%;
+background-color: #fff;
+}
+#content{
+	width:100%;
+}
+#footer{
+	width:100%;
+	padding-bottom: 10px;
+	padding-top:10px;
+}
+
+body {
+	margin:0;
+	padding:0;
+	font-family:  Arial, Geneva, Helvetica, sans-serif;
+	font-size: 12.5px;
+	line-height: 1.2em;
+	color: #fff;
+	background-color: rgba(91,93,96,0.2);
+	padding: 0px;
+}
+
+/* basic text styles ----------------------------  */
+#title{
+	text-align: center;
+}
+#sidebar { 
+	width: 200px; 
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+	background: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+li{
+	font-size: 12.5px;
+	letter-spacing: 0.1em;
+	color: #000000;
+}
+p, td {
+	font-size: 12.5px;
+	letter-spacing: 0.1em;
+	color: #000000;
+}
+h1 {
+	font-size: 24px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+	color:#5B5D60;
+}
+h2 {
+	padding:20px;
+	font-size: 20px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #999933;
+}
+h3 {
+	color:#5B5D60;
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-color: #5B5D60;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	word-spacing: 0.3em;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #9B9744;
+	text-decoration: italic;
+}
+a:visited {
+	font-weight: bold;
+	color: #D1D539;
+	text-decoration: none;
+}
+a:hover {
+	color: rgba(178, 247, 255, 0.9);
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #999933 1px;
+}
+td {
+	padding: 6px;
+	border: solid #999933 1px;
+}
+th {
+	font-weight: bold;
+	background-color: rgba(91,93,96,0.5);
+	text-align: center;
+	padding: 6px;
+	border: solid #999933 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #D1D539 1px;
+}
+
+img {
+	border: solid #D1D539 1px;
+
+}
+
+iframe {
+	border: solid #D1D539 1px;
+	padding: 2px;
+	margin: 2px;
+}
+/* navigation bar */
